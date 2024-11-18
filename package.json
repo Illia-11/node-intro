@@ -2,12 +2,17 @@
   "name": "intro",
   "version": "1.0.0",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "start-server": "node index.js",
     "test": "node index.js",
     "show-dir": "ls -l"
   },
-  "keywords": [],
+  "keywords": [
+    "js",
+    "node",
+    "math"
+  ],
   "author": "",
   "license": "ISC",
   "description": ""
