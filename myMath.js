@@ -1,3 +1,9 @@
+// підʼєднання сторонніх бібліотек
+import _ from 'lodash'
+
+const randomNum = _.random(5, 50, false);
+console.log(randomNum)
+
 class MyMath {
   static sum = (...nums) => nums.reduce((acc, num) => acc + num)
 
